@@ -9,7 +9,7 @@ app.use(cookieParser())
 app.get('/' , (req , res) => {
 
     if(req.cookies.profile){
-        var str = new Buffer(req.cookies.profile , 'base64')
+        var str = new Buffer.from(req.cookies.profile , 'base64')
         var obj = serialize.unserialize(str);
 
         if(obj.username){
