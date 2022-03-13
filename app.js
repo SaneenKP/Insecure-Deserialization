@@ -1,5 +1,5 @@
 const express = require('express');
-const cookieParser = require('cookie-parser')-p
+const cookieParser = require('cookie-parser')
 const escape = require('escape-html');
 const serialize = require('node-serialize');
 
