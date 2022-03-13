@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
     "node-serialize": "^0.0.4"
   }
